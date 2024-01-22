@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background:#233142;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    border: solid black 1px;
+    border-radius: 5px ;
+    padding: 10px;
+    margin: 10%;
+    background: #455d7a;
+}
+#inputag{
+    width: 400px;
+    outline-style: none;
+    height: 60px;
+    scroll-margin-bottom:50px ;
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 5px;
+    background: #e3e3e3;
+
+}
+ul{
+    list-style: none;
+}
+.addbtn{
+    width: 50px;
+    height: 30px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color:#f95959;
+    border-radius: 3px;
+    border: none;
+}
+li{
+    border: 1px solid black;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* for delete button*/
+li button{
+    max-height: 40px;
+    min-width: 50px;
+    border-radius: 4px;
+    border: solid 1px;
+    color: black;
+    font-weight: bold;
+    background-color:#f95959;
+}
