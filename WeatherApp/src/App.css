@@ -1,0 +1,150 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+body{
+  display: flex;
+  width: 100Vw;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 80vw;
+  min-height: 80vh;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  padding: 10px;
+}
+.searchimg{
+  width: 30px;
+}
+.input-container{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+}
+.cityInput{
+ width: 85%;
+ height: 25px;
+ border: none;
+ font-weight: 500;
+ font-size: 20px;
+ text-align: center;
+ outline: none;
+}
+.search-icon{
+  cursor: pointer;
+}
+.copywright{
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  cursor: context-menu;
+  display: flex;
+  justify-content: center;
+  
+}
+.copywright b{
+  cursor: pointer;
+}
+.copywright p{
+  padding: 5px;
+  /* border-left: 8px solid rgb(255, 0, 43); */
+  /* border-right: 8px solid rgb(255, 0, 43); */
+  width: fit-content;
+  border-radius: 20px;
+}
+.copywright div{
+  transition: 2s;
+}
+.copywright div :hover{
+  animation: animate 3s linear infinite;
+}
+@keyframes animate{
+  0%{
+    border-left: 8px solid rgb(255, 0, 43);
+    border-right:0px ;
+   
+
+    /* border-right: 8px solid rgb(255, 0, 43); */
+  }
+  25%{
+    border-left: 0px ;
+    border-right: 0px;
+    border-top: 8px solid rgb(255, 0, 43);
+    /* border-bottom: 8px solid rgb(255, 0, 43); */
+  }
+  50%{
+    border-left: 0px ;
+    border-right: 8px solid rgb(255, 0, 43);
+    border-top: 0px ;
+    border-bottom: 0px ;
+  }
+  75%{
+    border-left: 0px ;
+    border-right: 0px;
+    border-bottom: 8px solid rgb(255, 0, 43);
+    border-top: 0px;
+    /* border-bottom: 8px solid rgb(255, 0, 43); */
+  }
+  100%{
+    border-left: 8px solid rgb(255, 0, 43);
+    border-right:0px;
+  }
+}
+
+.error-loading{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.error-msg,
+.city-not-found,
+.loading{
+font-size: 20px;
+font-weight: 600;
+}
