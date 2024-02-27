@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #555;
+}
+.calender{
+  width: 400px;
+  background-color: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 5px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#fff;
+  background-color: #3498db;
+  padding: 5px;
+}
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+select{
+  font-size: 18px;
+  padding: 0px 8px;
+  border-radius: 4px;
+  margin: 0px 10px;
+  border: 1px solid #3498db;
+}
+.daysofweek{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: #3498db;
+  cursor: pointer;
+}
+.daysofmonth{
+ display: grid;
+  grid-template-columns: repeat(7,1fr);
+  gap: 8px;
+  text-align: center;
+}
+.daysbox{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(136, 134, 134);
+  padding: 3px;
+  font-size: 19px;
+  margin: 10px;
+  cursor: pointer;
+  
+}
+.empty{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(228, 221, 222);
+  border: 1px solid rgb(136, 134, 134);
+  margin: 10px;
+  cursor: pointer;
+}
+.daysbox:hover{
+  background-color: #3498db;
+  color: #fff;
+}
+.current{
+  background-color: tomato;
+}
+.current:hover{
+  background-color: rgb(252, 79, 49);
+}
