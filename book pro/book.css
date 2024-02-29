@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: auto;
+    font-family: "poppins" sans-serif;
+}
+body{
+    background: #eeeeee; 
+    font-family: 'Nunito', sans-serif;
+   
+
+}
+.navbar{
+    background-color:  #d81734;
+    padding: 10px;
+    cursor: pointer;
+}
+.container{
+    padding: 10px;
+    
+
+}
+
+.book-container{
+    text-align: left;
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin: 30px;
+    display: inline-block;
+    vertical-align:top ;
+    transition: .7s;
+
+}
+.book-container:hover{
+    transform:translateX(5px);
+    transform: translateY(10px);
+
+}
+.book-container h2{
+    color: rgb(228, 77, 77);
+}
+.book-container button{
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(209, 10, 10);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+.addnew{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 18, 18);
+    border-radius: 50px;
+    font-size: 40px;
+    border: none;
+    font-weight: bold;
+    color: black;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    
+}
+.popup-overlay{
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-menu{
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    min-height: 300px;
+    border-radius: 8px;
+    padding: 20px;
+    background: rgb(216, 13, 13);
+    z-index: 2;
+    display: none;
+}
+.popup-menu:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.popup-menu button{
+    border: none;
+    padding: 10px 5px;
+    width: 65px;
+    height: 35px;
+    border-radius: 4px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    margin: 10px;
+    transition: .5s;
+}
+.popup-menu button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    width: 68px;
+    height: 38px;
+}
+.popup-menu input{
+    background: transparent;
+    width: 90%;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px 10px 5px 10px;
+}
+.popup-menu textarea{
+    width: 85%;
+    margin: 20px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid;
+    outline: none;
+    min-height: 50px;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 500;
+    
+}
+.popup-menu textarea:hover{
+    box-shadow: rgb(0, 77, 160) 0px 20px 30px -10px;
+}
+
+.popup-menu textarea::placeholder{
+    color: black;
+}
+.popup-menu input::placeholder{
+    color: black;
+}
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: #ffffff url(Skateboarding.gif) no-repeat center;
+    background-size: 100px;
+}

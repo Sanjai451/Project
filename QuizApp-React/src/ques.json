@@ -1,0 +1,75 @@
+[
+    {
+        "category": "geography",
+        "id": "1",
+        "correctAnswer": "San Diego",
+        "incorrectAnswers": [
+            "San Francisco",
+            "Los Angeles",
+            "Sacramento"
+        ],
+        "question":  "Which California city was a whaling port in the mid-1800s and is located 12 miles north of Mexico?"
+        ,"options":["San Francisco",
+        "Los Angeles",
+        "Sacramento", "San Diego"]
+        
+    },
+    {
+        "category": "history",
+        "id": "2",
+        "correctAnswer": "Charlemagne",
+        "incorrectAnswers": [
+            "Alfred the Great",
+            "Genghis Khan",
+            "Vlad the Impaler"
+        ],
+        "question":  "Who was the founder of the Holy Roman Empire?"
+        ,"options":[ "Alfred the Great",
+        "Genghis Khan",
+        "Vlad the Impaler", "Charlemagne"]
+        
+    },
+    {
+        "category": "film_and_tv",
+        "id": "3",
+        "correctAnswer": "Hasta la vista, baby.",
+        "incorrectAnswers": [
+            "With great power comes great responsiblity.",
+            "Made it, Ma! Top of the world!",
+            "Attica! Attica!"
+        ],
+        "question":  "Who was the founder of the Holy Roman Empire?"
+        ,"options":[  "With great power comes great responsiblity.",
+        "Made it, Ma! Top of the world!",
+        "Attica! Attica!","Hasta la vista, baby."]
+    },
+    {
+        "category": "arts_and_literature",
+        "id": "4",
+        "correctAnswer": "Karl Marx",
+        "incorrectAnswers": [
+            "Jean Paul Sartre",
+            "Immanuel Kant",
+            "Jean-Jacques Rousseau"
+        ],
+        "question":  "Who wrote three books under the title \"Das Kapital\"?"
+        ,"options":[  "Karl Marx", "Jean Paul Sartre",
+        "Immanuel Kant",
+        "Jean-Jacques Rousseau"]
+        
+    },
+    {
+        "category": "food_and_drink",
+        "id": "5",
+        "correctAnswer": "Black Forest Gateau",
+        "incorrectAnswers": [
+            "Apple Strudel",
+            "Pavlova",
+            "Profiteroles"
+        ],
+        "question":  "Which dessert is named after the German region in which it originated?"
+        ,"options":[ "Black Forest Gateau","Apple Strudel",
+        "Pavlova",
+        "Profiteroles"]
+    }
+]
