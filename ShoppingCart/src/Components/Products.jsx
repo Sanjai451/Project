@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import './products.css'
-const Products = ({data ,cart,setCart}) => {
+import { useContext } from 'react';
+import { AppContext } from '../App';
+
+
+
+const Products = ({data}) => {
+    const {cart,setCart} = useContext(AppContext)
     const name=data.name.length>20 ? data.name.substring(0,20)+"..d." : data.name;
     const addcart=()=>{
             setCart([...cart,data])

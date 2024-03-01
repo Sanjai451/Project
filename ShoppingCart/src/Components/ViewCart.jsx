@@ -1,7 +1,12 @@
 import React, { useDebugValue, useEffect, useState } from 'react'
 import './Cart.css'
 //this is a shoping app by yuva
-const Cart = ({cart,setCart}) => {
+import { useContext } from 'react';
+import { AppContext } from '../App';
+
+
+const ViewCart = () => {
+  const {cart,setCart}=useContext(AppContext)
   const [total,setTotal] =useState(0)
   useEffect(()=>{
    setTotal(cart.reduce((acc,curr)=>acc+parseInt(curr.amt),0))
@@ -33,7 +38,7 @@ const Cart = ({cart,setCart}) => {
   )
 }
 
-export default Cart
+export default ViewCart
 
  {/* <div className="cart-product">
         <div className="img">

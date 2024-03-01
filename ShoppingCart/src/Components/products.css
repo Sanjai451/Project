@@ -27,6 +27,7 @@ img{
     margin: 5px;
     color: white;
     background-color: chocolate;
+    cursor: pointer;
 }
 .removecartbtn{
     background-color: tomato !important;

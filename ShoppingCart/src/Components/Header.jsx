@@ -5,7 +5,7 @@ import './Header.css'
 const Header = ({cart}) => {
   return (
     <div className='head'>
-      <div className="logo">HungryShop</div>
+      <div className="logo" >HungryShop</div>
       <ul className='unorder'>
         <li>
             <Link to={"/"}> Home</Link>
