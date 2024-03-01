@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "amt": "199",
+      "shop": "Pizza Hut",
+      "ftype": "Pizza",
+      "pic": "https://www.app.tutorjoes.in/img/food/1.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 2,
+      "name": "Paneer Tikka",
+      "amt": "299",
+      "shop": "Indian Spice",
+      "ftype": "Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/2.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 3,
+      "name": "Chicken Biryani",
+      "amt": "250",
+      "shop": "Biryani House",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/3.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Spring Roll",
+      "amt": "150",
+      "shop": "Chinese Delight",
+      "ftype": "Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/4.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 5,
+      "name": "Fish Fry",
+      "amt": "180",
+      "shop": "Seafood Express",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/5.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Milkshake",
+      "amt": "120",
+      "shop": "Milkshake Corner",
+      "ftype": "Beverage",
+      "pic": "https://www.app.tutorjoes.in/img/food/6.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 7,
+      "name": "Pasta Alfredo",
+      "amt": "180",
+      "shop": "Italian Delight",
+      "ftype": "Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/7.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 8,
+      "name": "Chicken Wings",
+      "amt": "220",
+      "shop": "Wing Stop",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/8.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 9,
+      "name": "Cheeseburger",
+      "amt": "199",
+      "shop": "Burger King",
+      "ftype": "Burger",
+      "pic": "https://www.app.tutorjoes.in/img/food/9.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 10,
+      "name": "French Fries",
+      "amt": "99",
+      "shop": "McDonald's",
+      "ftype": "Side",
+      "pic": "https://www.app.tutorjoes.in/img/food/10.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 11,
+      "name": "Mango Lassi",
+      "amt": "80",
+      "shop": "Indian Spice",
+      "ftype": "Beverage",
+      "pic": "https://www.app.tutorjoes.in/img/food/11.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 12,
+      "name": "Veggie Wrap",
+      "amt": "150",
+      "shop": "Subway",
+      "ftype": "Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/12.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 13,
+      "name": "Chicken Caesar Salad",
+      "amt": "200",
+      "shop": "Salad Bar",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/13.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 14,
+      "name": "Pineapple Pizza",
+      "amt": "220",
+      "shop": "Pizza Hut",
+      "ftype": "Pizza",
+      "pic": "https://www.app.tutorjoes.in/img/food/14.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 15,
+      "name": "Chicken Tikka Masala",
+      "amt": "280",
+      "shop": "Indian Spice",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/15.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 16,
+      "name": "Veggie Burger",
+      "amt": "180",
+      "shop": "Burger King",
+      "ftype": "Burger",
+      "pic": "https://www.app.tutorjoes.in/img/food/16.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 17,
+      "name": "Chocolate Cake",
+      "amt": "150",
+      "shop": "Bakery Delight",
+      "ftype": "Dessert",
+      "pic": "https://www.app.tutorjoes.in/img/food/17.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 18,
+      "name": "Chicken Shawarma",
+      "amt": "200",
+      "shop": "Shawarma Corner",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/18.jpg",
+      "latest": "No"
+    },
+    {
+      "id": 19,
+      "name": "Vegetable Noodles",
+      "amt": "180",
+      "shop": "Chinese Delight",
+      "ftype": "Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/19.jpg",
+      "latest": "Yes"
+    },
+    {
+      "id": 20,
+      "name": "Chicken Fried Rice",
+      "amt": "220",
+      "shop": "Chinese Delight",
+      "ftype": "Non-Veg",
+      "pic": "https://www.app.tutorjoes.in/img/food/20.jpg",
+      "latest": "No"
+    }
+  ]
+  

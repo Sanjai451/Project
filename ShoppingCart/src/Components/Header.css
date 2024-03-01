@@ -1,0 +1,30 @@
+.head{
+    background-color: #222;
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 0 3vw;
+}
+.unorder{
+ display: flex;
+ flex-direction: row;
+ gap: 7vw;
+ margin: 10px;
+ text-decoration: none;
+ list-style-type: none;
+ font-size: 20px;
+ padding: 0 3vw 0 0;
+}
+.unorder li a{
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
