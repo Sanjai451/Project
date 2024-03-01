@@ -40,7 +40,9 @@ textarea{
     max-height: 50vh;
     outline: none;
     padding: 10px;
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
     background: rgb(130,139,193);
 background: linear-gradient(147deg, rgba(130,139,193,1) 3%, rgba(110,127,214,1) 37%, rgba(193,78,139,1) 100%);
     
