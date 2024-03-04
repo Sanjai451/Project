@@ -1,0 +1,13 @@
+1.For server setup
+
+    npm init -y
+    npm i express cors
+    npm i nodemon -D //for refresh of server
+//in another terminal
+2.Front Frontend setup
+ 
+    npm create vite@latest
+    cd ___
+    npm install
+    npm run dev
+    npm i axios //for api usage
