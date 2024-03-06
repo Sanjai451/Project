@@ -1,0 +1,116 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background: rgb(222, 187, 255);
+  width: 100vw;
+  height: 100vh;
+  /* display: flex; */
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+ 
+  
+}
+.para{
+  font-size: 20px;
+  color: red;
+  font-weight: 600;
+}
+.box{
+  width: 45%;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 8px;
+}
+h1{
+  font-size: 30px;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  border-radius: 5px;
+  outline: none;
+  padding: 8px;
+  border: 1px solid rgb(177, 171, 171);
+  background: rgb(144, 144, 170);
+}
+.btn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn :nth-child(2){
+  background-color: rgb(211, 19, 19);
+}
+.btn :nth-child(2):hover{
+  background-color: rgb(243, 7, 7);
+}
+button{
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgb(255, 200, 129);
+  border: none;
+  border-radius: 10px;
+  width: 35%;
+  cursor: pointer;
+  transition: 1s;
+}
+.btn :hover{
+  background-color: rgb(255, 173, 65);
+}
+.result{
+  border: 2px solid rgb(119, 115, 115);
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: 400;
+}
