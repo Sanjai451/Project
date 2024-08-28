@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  background: #a0a0a0;
+}
+
+
+.popup{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;  
+}
+
+.popup button, .deleteBtn, .editBtn{
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  font-size: 15px;
+}
+.popup .addBtn{
+  background: rgb(79, 170, 79);
+  color: white;
+}
+.popup .cancelBtn, .deleteBtn{
+  background: rgb(240, 72, 42);
+  color: white;
+}
+.editBtn{
+  background: rgb(255, 255, 154);
+}
+textarea{
+  overflow: hidden;
+  border: 1px solid white;
+  border-radius: 8px;
+  min-width: 200px;
+  min-height: 50px;
+  outline: none;
+  color: #000000;
+  padding: 5px;
+  margin: 5px;
+
+}
+.content{
+  background: #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+h1{
+  text-align: center;
+}
+
+.tasks{
+  border: 1px solid white;
+  margin: 20px;
+  border-radius: 8px;
+}
+.task{
+  border: 1px solid rgb(87, 87, 87);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  max-width: 300px;
+}
+.addnew{
+  border-radius: 50px;
+  margin: 10px;
+}
+.add{
+  width: 70px;
+  /* padding: 5px; */
+  border-radius: 50px;
+  font-size: 50px;
+}
